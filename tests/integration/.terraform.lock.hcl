@@ -1,0 +1,24 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/harness/harness" {
+  version     = "0.45.9"
+  constraints = "~> 0.45"
+  hashes = [
+    "h1:uIheoqvaBHLCpV9c12CY9LGOczOiBr2q7qKg1XEWAs8=",
+    "zh:022477f6b22cb06943b86456c3b3e8f10b88db63e478cace6631fd817e45651e",
+    "zh:068dd8f0641df6d5d56b906deea31a25538e845614c2ba4e444f1122b9d39902",
+    "zh:504bfa4275e371d651565d18fc0d162645e30a4049024d263c6dac730d8a9434",
+    "zh:5727848b7e49876d95b3674786ef1ad268b858849c5bf8d13e11ad586034eca1",
+    "zh:59ac18af68bd563fe0836336f9365b2d4b2de6015ccc77bf2d003aaeeca04131",
+    "zh:7a5788ae9ac80a6d856d5b06330159b01f36b136fa5751399572566c75db8a60",
+    "zh:8496f079ed807a416a302c3ab937f91c75f0fb17821869789c86f3bae3546ae7",
+    "zh:9e8d09df5248dd2617083c9f39d1d83a77af18a7e450f52acc3592dd121a5a3f",
+    "zh:b93e510605b7e9bdc7c2a5a117665e7590b3ac433ff437abfcb7a12f328daf65",
+    "zh:c2f9416019cee59e039c214bae7cef25323d229e98e43cb3f95999dc6dc610bd",
+    "zh:c721784537e31a8fa9860f4483fb84ca897cf20122ae32e478e5822159baa280",
+    "zh:d20d7d592f12b99f062c906cae6bb696bba729989b18a5b9b7952e9a5b5492d2",
+    "zh:e5fb155873dfc15cf6ef1c6cc36ca392c265efc8cf40e2246fa204201b1e693c",
+    "zh:f8607c08902b76cd6f116f75968eb73d543d27e45b4fac69d721dfaf3b29b406",
+  ]
+}

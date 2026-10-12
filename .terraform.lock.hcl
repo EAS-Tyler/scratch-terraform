@@ -4,6 +4,9 @@
 provider "registry.terraform.io/harness/harness" {
   version = "0.45.9"
   hashes = [
+    "h1:9vCtA0t4GxcolcijMMPQ2PiA9W4DSV0jreqsPe83fag=",
+    "h1:OZjyUpXt/U5aEXRlnk2/dJY4BH34TOcJXKTmSelXx0w=",
+    "h1:qJb6jIl/cLRRbdSDtQXzY9lRBsT28zg8II2CwXa1D2E=",
     "h1:uIheoqvaBHLCpV9c12CY9LGOczOiBr2q7qKg1XEWAs8=",
     "zh:022477f6b22cb06943b86456c3b3e8f10b88db63e478cace6631fd817e45651e",
     "zh:068dd8f0641df6d5d56b906deea31a25538e845614c2ba4e444f1122b9d39902",
@@ -25,7 +28,10 @@ provider "registry.terraform.io/harness/harness" {
 provider "registry.terraform.io/hashicorp/vault" {
   version = "5.12.0"
   hashes = [
+    "h1:3iJeIbTUEeBARIGyoSvJ3rwV+LO2519NoTaDkOqAUXg=",
     "h1:FKZHrCCkH6zocrnMyQmJtOsOglL1cy0lJkhHdNxTCBs=",
+    "h1:NXnrOFre4t8nj7+ZQ3MKIECpDohjMBtHWm2aen75nfU=",
+    "h1:ixDlevGo4s0tGOkOQELclQNsWNvKuJP3nWFHjpp5sDw=",
     "zh:0683ab1870c6ffe78463465fc0954ff18fbbfe16d79dc121e20efb27cd2be850",
     "zh:0ade50207774b544995066be02cf7e108abe828e089eb646da4c04863cbee702",
     "zh:2b3360bec8d457a7d19df86bf4576711035785928a9fa307affce10cbeae89fd",

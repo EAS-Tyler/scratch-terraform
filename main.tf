@@ -22,19 +22,19 @@ resource "harness_platform_pipeline" "demo" {
   identifier  = "demo_pipeline"
   name        = "Demo Pipeline"
   description = "A demo pipeline managed by Terraform."
-  yaml        = templatefile("${path.module}/pipeline.tpl", {
+  yaml = templatefile("${path.module}/pipeline.tpl", {
     project_id = harness_platform_project.project.id
-    org_id = data.harness_platform_organization.org.id
+    org_id     = data.harness_platform_organization.org.id
   })
 }
 
 
 
 resource "harness_platform_pipeline" "manual" {
-  org_id      = data.harness_platform_organization.org.id
-  project_id  = harness_platform_project.project.id
-  identifier  = var.pipeline_identifier
-  name        = var.pipeline_name
+  org_id     = data.harness_platform_organization.org.id
+  project_id = harness_platform_project.project.id
+  identifier = var.pipeline_identifier
+  name       = var.pipeline_name
   # yaml        = templatefile("${path.module}/pipeline.tpl", {
   #   project_id = harness_platform_project.project.id
   #   org_id     = data.harness_platform_organization.org.id

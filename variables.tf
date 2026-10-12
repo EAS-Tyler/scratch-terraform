@@ -35,7 +35,7 @@ variable "pipeline_identifier" {
 }
 
 variable "pipeline_identifier2" {
-  type    = string
+  type = string
   # default = "moveme2"
 }
 
@@ -45,6 +45,6 @@ variable "pipeline_name" {
 }
 
 variable "pipeline_name2" {
-  type    = string
+  type = string
   # default = "move_me_2"
 }

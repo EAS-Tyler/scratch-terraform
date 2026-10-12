@@ -17,7 +17,3 @@ variable "project_id" {
   type    = string
   default = ""
 }
-
-locals {
-  role_id = "_pipeline_view"
-}
